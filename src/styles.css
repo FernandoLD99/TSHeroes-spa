@@ -3,3 +3,14 @@ a:link { text-decoration: none;
 a:visited {
 text-decoration: none;
 }
+
+b {
+    width: auto;
+    height: auto;
+    transition: background-color 0.4s ease;
+    
+}
+b:hover {
+    background-color: rgb(241, 132, 132);
+    transform: scale(1.1)
+}
