@@ -19,7 +19,7 @@ export const HeroCard = (hero: Hero) => {
   return (
     
     <div className="col animate__animated animate__fadeIn">
-      <Link to={`/Hero/${hero.id}`}>
+      <Link to={`/Hero/${hero.id}`} text-decoration="none">
       <div className="card">
         <div className="row no-gutters">
           <div className="col-4">
